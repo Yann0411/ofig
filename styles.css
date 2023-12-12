@@ -1,0 +1,108 @@
+body {
+    font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header__title {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    display: flex;
+    column-gap: 10px;
+    align-items: baseline;
+}
+
+.header__title__oFig {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.header__title__finalFantasy{
+    background-color: grey;
+    display:flex ;
+    justify-content:center ;
+    padding: 10px;
+    color: white;
+}
+.Italic{
+    display: flex;
+    column-gap: 10px;
+    font-size: 2em;
+    font-style:italic;
+
+}
+
+.allArticle {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.article {
+    width: 400px;
+    border: solid  rgb(218, 200, 200) 2px;
+    margin: 15px;
+
+}
+
+.Figurine{
+    max-width: 100%;
+}
+
+.PanierAndPrice{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    margin: 8px;
+    
+}
+
+.panier__price{
+    font-weight:bold ;
+}
+
+.panier__price__stroke{
+    text-decoration: line-through ;
+}
+
+
+
+.panier{
+    font-weight: lighter;
+    font-size: 15px ;
+}
+
+.subtitile{
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 20px;
+}
+.subtitile__description{
+    margin: 15px;
+    font-size: 15px;
+}
+
+.Figurine__tittle{
+    margin: 15px;
+    color: rgb(218, 200, 200);
+}
+
+footer{
+    background-color: grey;
+    display:flex ;
+    justify-content:center ;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.underline{
+    border: solid 1px rgb(218, 200, 200);
+    margin: 15px;
+
+}
